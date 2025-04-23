@@ -1,0 +1,18 @@
+START:  
+    INP        
+    STA NUM    
+    INP        
+    STA NUM2   
+    INP        
+    ADD NUM    
+    ADD NUM2   
+    OUT        
+
+    
+HLT            
+
+NUM: .data 1 0    
+NUM2: .data 1 0   
+
+
+
